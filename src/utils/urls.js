@@ -1,11 +1,12 @@
 export const envURL = {
   dev: `https://dev-fidisyslt.herokuapp.com`,
   stage: `https://stage-fidisyslt.herokuapp.com`,
-  prod: `https://prod-fidisyslt.herokuapp.com`,
-  mockUrl: `https://leave-tracker-stage.fidisys.com`
+  prod: `https://prod-fidisyslt.herokuapp.com`, 
+  mockUrl1: `https://leave-tracker-stage.fidisys.com`,
+  mockUrl12: `http://localhost:3000`,
 }
 
-export const baseURL = envURL?.mockUrl;
+export const baseURL = envURL?.mockUrl1;
 
 export const getHeaders = token => {
   return {
